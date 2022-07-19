@@ -1,0 +1,50 @@
+.alignArrow{
+  display: flex;
+  align-items: flex-end;
+}
+.homeText{
+  padding: 0 1vw;
+  min-width: 10vw;
+  h1{
+    font-family: "Playfair Display", serif;
+    font-size: 5rem;
+    font-weight: 100;
+  }
+  p{
+    font-size: 1.2rem;
+    max-width: 20vw;
+    text-align: start;
+  }
+}
+.arrow{
+  position: relative;
+  right: 15vw;
+  bottom: 4vw;
+}
+
+.displaySlider{
+  
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.sliderPosition{
+  max-width: 40vw;
+}
+
+.swiperSlide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lineForSlider{
+  width: 40vw;
+  height: 1px;
+  background-color: var(--gray-100);
+  margin-top: 200px;
+  position: absolute;
+  left: 18vw;
+}

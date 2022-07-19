@@ -1,0 +1,27 @@
+.waterMarkFindUs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h2{
+    font-size: 1.2rem;
+    font-weight: 500;
+    position: relative;
+    right: 2rem;
+  }
+}
+.findUsContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  a{
+    transition: all 0.3s;
+    &:hover{
+      filter: brightness(92%);
+    }
+  }
+ .map{
+  width: 800px;
+ }
+}

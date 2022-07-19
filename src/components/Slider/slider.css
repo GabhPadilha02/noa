@@ -1,0 +1,24 @@
+.swiper{
+  padding: 3vw;
+  margin: 0vw;
+}
+.swiper-pagination-bullet{
+  width: 0.6rem;
+  height: 0.6rem;
+}
+.swiper-pagination-bullet-active{
+  background-color: var(--gray-100);
+  border: solid 0.13rem var(--brown-500);
+}
+.swiper-button-prev{
+  color: var(--brown-500);
+  
+}
+.swiper-button-next{
+  color: var(--brown-500); 
+  
+}
+.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+  bottom:600px;
+  left: 200px;
+}

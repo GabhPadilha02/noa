@@ -1,0 +1,66 @@
+.aboutContainer{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+.waterMarkAbout{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h2{
+    font-size: 1.2rem;
+    font-weight: 500;
+    position: relative;
+    right: 2rem;
+  }
+}
+.aboutText{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  h3{
+    font-family: "Playfair Display", serif;
+    font-weight: 200;
+    font-size: 4rem;
+  }
+  p{
+    max-width: 60vw;
+    text-align: justify;
+    font-weight: 500;
+  }
+}
+.aboutGalery{
+  display: flex;
+  margin-top: 2rem;
+  gap: 3rem;
+  .positioningTheCentralImage{
+    position: relative;
+    top: 5vw;
+  }
+  margin-bottom: 5rem;
+}
+.socialButtons{
+  display: flex;
+  gap: 1rem;
+  position: relative;
+  left: 30vw;
+}
+.whatsappButton{
+  display: flex;
+  gap: 0.2rem;
+  align-items: center;
+  background: none;
+  font-size: 1.2rem;
+  padding: 0.4rem;
+  border-radius: 3rem;
+  border: 1px solid var(--brown-500);
+  transition: all 0.3s;
+  &:hover{
+    color: #d18371;
+    border:solid 1px #d18371;
+  }
+}
