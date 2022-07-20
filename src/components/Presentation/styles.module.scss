@@ -77,10 +77,14 @@
     width: 100%;
   }
   .homeText{
+    padding:0 50px;
     width: 400px;
+    h1{
+      font-size: 3.5rem;
+    }
     p{
 
-      font-size: 1.3rem;
+      font-size: 1rem;
       font-weight: 500;
       max-width: 50vw;
     }
