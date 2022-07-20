@@ -34,12 +34,11 @@
 
 @media (max-width: 767px) {
   .swiper{
-    padding: 0vw;
-    margin: 0 -3rem;
+    margin: 0 -7rem;
     max-width: 100vw;
   }
   .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
-    bottom:200px;
+    bottom:350px;
     left: 110px;
   }
   .swiper-pagination-bullet{
@@ -47,4 +46,3 @@
     height: 0.4rem;
   }
  
-}
