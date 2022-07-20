@@ -15,12 +15,12 @@ export default function Differentials() {
       <div className={styles.alignDifferentialsImages}>
         <div className={styles.differentialImages}>
           <h3>Cadeira de massagem</h3>
-          <img src={DifferentialsFirst} width={500} height={567} alt="Cadeira de Massagem" />
+          <img src={DifferentialsFirst}  alt="Cadeira de Massagem" />
         </div>
         <div className={styles.dividingLine}></div>
         <div className={styles.differentialImages}>
           <h3>Cappuccino especial, cortesia para as clientes</h3>
-          <img src={DifferentialsSecond} width={500} height={567} alt="Cappuccino especial" />
+          <img src={DifferentialsSecond}  alt="Cappuccino especial" />
         </div>
       </div>
       <div className={styles.socialButtons}>

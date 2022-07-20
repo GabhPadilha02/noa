@@ -37,6 +37,9 @@
   display: flex;
   margin-top: 2rem;
   gap: 3rem;
+  img{
+    width: 350px;
+  }
   .positioningTheCentralImage{
     position: relative;
     top: 5vw;
@@ -62,5 +65,33 @@
   &:hover{
     color: #d18371;
     border:solid 1px #d18371;
+  }
+}
+@media (max-width: 1024px){
+  .aboutGalery{
+    .positioningTheCentralImage{
+    }
+    img{
+      width: 250px;
+    }
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .aboutGalery{
+    flex-direction: column;
+    .positioningTheCentralImage{
+      position: inherit;  
+    }
+    img{
+      width: 250px;
+    }
+  }
+  .socialButtons{
+    position: inherit;
+  }
+  .whatsappButton{
+    font-size: 0.8rem;
+    padding: 0.3rem;
   }
 }

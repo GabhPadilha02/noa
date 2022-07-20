@@ -3,6 +3,11 @@ import WaterMark from "../../assets/images/watermark.png"
 import Slider from "../Slider"
 import { SwiperProps, SwiperSlide } from "swiper/react"
 
+import 'swiper/css'
+import 'swiper/css/pagination'
+import 'swiper/css/navigation'
+import '../Slider/slider.css'
+
 import ServicesFirst from "../../assets/images/services1.png"
 import ServicesSecond from "../../assets/images/services2.png"
 import ServicesThird from "../../assets/images/services3.png"
@@ -33,24 +38,24 @@ export default function ServicesNOA() {
       <div className={styles.sliderPosition}>
           <Slider settings={settings}>
             <SwiperSlide className={styles.swiperSlideServices}>
-              <img  src={ServicesFirst} width={501} height={582}  alt="Slider-Services"/>
+              <img className={styles.servicesImage}  src={ServicesFirst}  alt="Slider-Services"/>
               <div className={styles.servicesInfo}>
                 <h3>Unhas</h3>
-                <ul>
+                <ul className={styles.listContainer}>
                   <li>
-                    <Circle width={12} height={12}/>
+                    <Circle className={styles.dots}/>
                     <span>Manicure e pedicure clássico</span> 
                   </li>
                   <li>
-                    <Circle width={12} height={12}/>
+                    <Circle className={styles.dots}/>
                     <span>Esmaltação em gel</span> 
                   </li>
                   <li>
-                    <Circle width={12} height={12}/>
+                    <Circle className={styles.dots}/>
                     <span>Blindagem</span> 
                   </li>
                   <li>
-                    <Circle width={12} height={12}/>
+                    <Circle className={styles.dots}/>
                     <span>Alongamento</span> 
                   </li>
                 </ul>
@@ -59,7 +64,7 @@ export default function ServicesNOA() {
             </SwiperSlide>
             
             <SwiperSlide className={styles.swiperSlideServices}>
-              <img  src={ServicesSecond} width={501} height={582}  alt="Slider-Services"/>
+              <img className={styles.servicesImage}  src={ServicesSecond}  alt="Slider-Services"/>
               <div className={styles.servicesInfo}>
                 <h3 className={styles.resizeTitle}>Remoção de micropigmentação e pigmentos indesejados</h3>
               </div>
@@ -67,20 +72,20 @@ export default function ServicesNOA() {
             </SwiperSlide>
 
             <SwiperSlide className={styles.swiperSlideServices}>
-              <img  src={ServicesThird} width={501} height={582}  alt="Slider-Services"/>
+              <img className={styles.servicesImage} src={ServicesThird}  alt="Slider-Services"/>
               <div className={styles.servicesInfo}>
                 <h3>Micropigmentação</h3>
                 <ul>
                   <li>
-                    <Circle width={12} height={12}/>
+                    <Circle className={styles.dots}/>
                     <span>Técnicas internacional e artística para micropigmentação</span> 
                   </li>
                   <li>
-                    <Circle width={12} height={12}/>
+                    <Circle className={styles.dots}/>
                     <span>O que há de mais moderno e sofisticado no mercado</span> 
                   </li>
                   <li>
-                    <Circle width={12} height={12}/>
+                    <Circle className={styles.dots}/>
                     <span>Técnica de pálpebras, lábios e sobrancelhas</span> 
                   </li>
                 </ul>
@@ -89,20 +94,20 @@ export default function ServicesNOA() {
             </SwiperSlide>
 
             <SwiperSlide className={styles.swiperSlideServices}>
-              <img  src={ServicesFourth} width={501} height={582}  alt="Slider-Services"/>
+              <img className={styles.servicesImage} src={ServicesFourth}  alt="Slider-Services"/>
               <div className={styles.servicesInfo}>
                 <h3 className={styles.resizeTitle}>Harmonização e rejuvenescimento facial</h3>
                 <ul>
                   <li>
-                    <Circle width={12} height={12}/>
+                    <Circle className={styles.dots}/>
                     <span>Botox</span> 
                   </li>
                   <li>
-                    <Circle width={12} height={12}/>
+                    <Circle className={styles.dots}/>
                     <span>Preenchimentos</span> 
                   </li>
                   <li>
-                    <Circle width={12} height={12}/>
+                    <Circle className={styles.dots}/>
                     <span>Fios de pdo e estimuladores e colágeno</span> 
                   </li>
                 </ul>
@@ -111,24 +116,24 @@ export default function ServicesNOA() {
             </SwiperSlide>
 
             <SwiperSlide className={styles.swiperSlideServices}>
-              <img  src={ServicesFifth} width={501} height={582}  alt="Slider-Services"/>
+              <img className={styles.servicesImage} src={ServicesFifth}  alt="Slider-Services"/>
               <div className={styles.servicesInfo}>
                 <h3>Sobrancelhas</h3>
                 <ul>
                   <li>
-                    <Circle width={12} height={12}/>
+                    <Circle className={styles.dots}/>
                     <span>Design de sobrancelhas</span> 
                   </li>
                   <li>
-                    <Circle width={12} height={12}/>
+                    <Circle className={styles.dots}/>
                     <span>Aplicação de henna e tintura</span> 
                   </li>
                   <li>
-                    <Circle width={12} height={12}/>
+                    <Circle className={styles.dots}/>
                     <span>Depilação com fio egípcio</span> 
                   </li>
                   <li>
-                    <Circle width={12} height={12}/>
+                    <Circle className={styles.dots}/>
                     <span>Brow lamination</span> 
                   </li>
                 </ul>
@@ -137,16 +142,16 @@ export default function ServicesNOA() {
             </SwiperSlide>
 
             <SwiperSlide className={styles.swiperSlideServices}>
-              <img  src={ServicesSixth} width={501} height={582}  alt="Slider-Services"/>
+              <img className={styles.servicesImage} src={ServicesSixth}  alt="Slider-Services"/>
               <div className={styles.servicesInfo}>
                 <h3>Cílios</h3>
                 <ul>
                   <li>
-                    <Circle width={12} height={12}/>
+                    <Circle className={styles.dots}/>
                     <span>Alongamento de cílios</span> 
                   </li>
                   <li>
-                    <Circle width={12} height={12}/>
+                    <Circle className={styles.dots}/>
                     <span>Lash Lifting</span> 
                   </li>
                 </ul>

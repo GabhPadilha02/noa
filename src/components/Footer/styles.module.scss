@@ -25,3 +25,23 @@
       color: #d18371; 
     }
 }
+@media (max-width: 1024px) {
+  .links{
+    font-size: .8rem;
+  }
+}
+
+@media (max-width: 767px){
+  .footerLinks{
+    flex-direction: column;
+    max-width: 250px;
+    text-align: start;
+  }
+  .links{
+    align-items: flex-start;
+  }
+  .iconFooter{
+    max-width: 20px;
+    min-width: 20px;
+  }
+}

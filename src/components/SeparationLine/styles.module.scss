@@ -12,3 +12,8 @@
   background-color: var(--gray-100);
 }
 
+@media (max-width: 767px){
+  .line{
+    max-width: 70vw;
+  }
+}

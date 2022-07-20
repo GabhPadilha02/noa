@@ -33,16 +33,16 @@ export default function Presentation() {
         <div className={styles.sliderPosition}>
           <Slider settings={settings}>
             <SwiperSlide className={styles.swiperSlide}>
-              <img  src={HomeFirst} width={400} height={600} alt="Slider-Home"/>
+              <img  src={HomeFirst}  alt="Slider-Home"/>
             </SwiperSlide>
             <SwiperSlide className={styles.swiperSlide}>
-                <img  src={HomeSecond} width={400} height={600} alt="Slider-Home"/>
+                <img  src={HomeSecond}  alt="Slider-Home"/>
             </SwiperSlide>
             <SwiperSlide className={styles.swiperSlide}>
-                <img  src={HomeThird} width={400} height={600} alt="Slider-Home"/>
+                <img  src={HomeThird}  alt="Slider-Home"/>
             </SwiperSlide>
             <SwiperSlide className={styles.swiperSlide}>
-                <img  src={HomeFourth} width={400} height={600} alt="Slider-Home"/>
+                <img  src={HomeFourth}  alt="Slider-Home"/>
             </SwiperSlide>  
           </Slider>
         </div> 

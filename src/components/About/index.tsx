@@ -18,9 +18,9 @@ export default function About() {
         <p>NOA Beauty, um lugar aconchegante para quem busca realçar a sua beleza e relaxar. Ideal para mulheres que buscam excelência e exclusividade. Nossa equipe conta com profissionais extremamente capacitados para cuidar de você.</p>
       </div>
       <div className={styles.aboutGalery}>
-          <img src={AboutFirst} width={351} height={496} alt="NOA" />
-          <img src={AboutSecond} className={styles.positioningTheCentralImage} width={351} height={496} alt="NOA" />
-          <img src={AboutThird} width={351} height={496} alt="NOA" />
+          <img src={AboutFirst}  alt="NOA" />
+          <img src={AboutSecond} className={styles.positioningTheCentralImage} alt="NOA" />
+          <img src={AboutThird}  alt="NOA" />
       </div>
       <div className={styles.socialButtons}>
           <a href="https://web.whatsapp.com/send?phone=554199491851" target="_blank" className={styles.whatsappButton}>

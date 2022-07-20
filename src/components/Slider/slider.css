@@ -1,7 +1,10 @@
 .swiper{
   padding: 3vw;
   margin: 0vw;
+  
 }
+
+
 .swiper-pagination-bullet{
   width: 0.6rem;
   height: 0.6rem;
@@ -21,4 +24,27 @@
 .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
   bottom:600px;
   left: 200px;
+}
+@media (max-width: 1024px) {
+  .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom:450px;
+    left: 110px;
+  }
+}
+
+@media (max-width: 767px) {
+  .swiper{
+    padding: 0vw;
+    margin: 0 -3rem;
+    max-width: 80vw;
+  }
+  .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom:260px;
+    left: 110px;
+  }
+  .swiper-pagination-bullet{
+    width: 0.4rem;
+    height: 0.4rem;
+  }
+ 
 }
