@@ -21,14 +21,8 @@ export default function Header() {
           <li><a href="#encontre-nos">Encontre-nos</a></li>
           <li> 
             <a href="https://wa.me/554199491851" target="_blank" className={styles.whatsappButton}>
-              <span>Contacte-nos</span>
+              <span>Agende seu horário</span>
               <WhatsappLogo width={20} height={20}/>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/noa.beauty_bc/" target="_blank" className={styles.whatsappButton}>
-              <span>Siga-nos</span>
-              <InstagramLogo width={20} height={20}/>
             </a>
           </li>
         </ul>

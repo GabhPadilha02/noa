@@ -46,11 +46,14 @@
  
 }
 .whatsappButton{
+  margin: 0 auto;
+  width: 180px;
+  justify-content: center;
   display: flex;
   gap: 0.2rem;
   align-items: center;
   background: none;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   padding: 0.4rem;
   border-radius: 3rem;
   border: 1px solid var(--brown-500);

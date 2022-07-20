@@ -8,6 +8,7 @@ import HomeFirst from "../../assets/images/home1.png"
 import HomeSecond from "../../assets/images/home2.png"
 import HomeThird from "../../assets/images/home3.png"
 import HomeFourth from "../../assets/images/home4.png"
+import { WhatsappLogo } from "phosphor-react"
 export default function Presentation() {
   const settings: SwiperProps = {
     spaceBetween: 50,
@@ -46,8 +47,13 @@ export default function Presentation() {
             </SwiperSlide>  
           </Slider>
         </div> 
-          
       </div>
+      
+        <a href="https://wa.me/554199491851" target="_blank" className={styles.whatsappButton}>
+              <span>Agende seu horário</span>
+              <WhatsappLogo width={20} height={20}/>
+        </a>
+      
     </main>
   )
 }

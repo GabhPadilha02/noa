@@ -57,13 +57,9 @@ export default function Feedbacks() {
         </div>
       </div>
       <div className={styles.socialButtons}>
-          <a href="https://web.whatsapp.com/send?phone=554199491851" target="_blank" className={styles.whatsappButton}>
-            <span>Contacte-nos</span>
-            <WhatsappLogo width={30} height={30}/>
-          </a>
-          <a href="https://www.instagram.com/noa.beauty_bc/" target="_blank" className={styles.whatsappButton}>
-            <span>Siga-nos</span>
-            <InstagramLogo width={30} height={30}/>
+          <a href="https://wa.me/554199491851" target="_blank" className={styles.whatsappButton}>
+            <span>Agende seu horário</span>
+            <WhatsappLogo width={20} height={20}/>
           </a>
       </div>
       
