@@ -36,10 +36,10 @@
   .swiper{
     padding: 0vw;
     margin: 0 -3rem;
-    max-width: 80vw;
+    max-width: 100vw;
   }
   .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
-    bottom:260px;
+    bottom:200px;
     left: 110px;
   }
   .swiper-pagination-bullet{

@@ -89,27 +89,27 @@
     justify-content: center;
   }
   .swiperSlideServices{
-    max-width: 100%;
+    
     align-items: center;
     justify-content: center;
     .servicesImage{
-      width: 230px;
+      width: 200px;
     }
   }
   .servicesInfo{
     max-width: 100px;
     h3{
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
     .resizeTitle{
-      font-size: 1.2rem;
+      font-size: 1rem;
       min-width: 20vw;
     }
     ul{
-      gap: 0.3rem;
+      gap: 0.1rem;
     }
     ul li span{
-      font-size: 0.6rem;
+      font-size: 0.5rem;
     }
   }
   .dots{
@@ -120,7 +120,7 @@
    right: 5vw;
    font-size: 0.8rem;
    padding: 0.3rem;
-   top: 6.8rem;
+   top: 5.6rem;
   }
   
 }

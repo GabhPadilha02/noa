@@ -70,7 +70,7 @@
   }
 }
 
-@media (min-width: 481px) and (max-width: 767px)  {
+@media (max-width: 767px)  {
   .displaySlider{
     flex-direction: column;
     align-items: center;
@@ -95,7 +95,7 @@
   .swiperSlide{
     margin-top: 3rem;
     img{
-      width: 200px;
+      width: 150px;
     }
   }
   .lineForSlider{
