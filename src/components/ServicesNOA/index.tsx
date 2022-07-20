@@ -60,7 +60,7 @@ export default function ServicesNOA() {
                   </li>
                 </ul>
               </div>
-              <a href="https://web.whatsapp.com/send?phone=554199491851" target="_blank" className={styles.scheduleNow}>Agende agora!</a>
+              <a href="https://wa.me/554199491851" target="_blank" className={styles.scheduleNow}>Agende agora!</a>
             </SwiperSlide>
             
             <SwiperSlide className={styles.swiperSlideServices}>
@@ -68,7 +68,7 @@ export default function ServicesNOA() {
               <div className={styles.servicesInfo}>
                 <h3 className={styles.resizeTitle}>Remoção de micropigmentação e pigmentos indesejados</h3>
               </div>
-              <a href="https://web.whatsapp.com/send?phone=554199491851" target="_blank" className={styles.scheduleNow}>Agende agora!</a>
+              <a href="https://wa.me/554199491851" target="_blank" className={styles.scheduleNow}>Agende agora!</a>
             </SwiperSlide>
 
             <SwiperSlide className={styles.swiperSlideServices}>
@@ -90,7 +90,7 @@ export default function ServicesNOA() {
                   </li>
                 </ul>
               </div>
-              <a href="https://web.whatsapp.com/send?phone=554199491851" target="_blank" className={styles.scheduleNow}>Agende agora!</a>
+              <a href="https://wa.me/554199491851" target="_blank" className={styles.scheduleNow}>Agende agora!</a>
             </SwiperSlide>
 
             <SwiperSlide className={styles.swiperSlideServices}>
@@ -112,7 +112,7 @@ export default function ServicesNOA() {
                   </li>
                 </ul>
               </div>
-              <a href="https://web.whatsapp.com/send?phone=554199491851" target="_blank" className={styles.scheduleNow}>Agende agora!</a>
+              <a href="https://wa.me/554199491851" target="_blank" className={styles.scheduleNow}>Agende agora!</a>
             </SwiperSlide>
 
             <SwiperSlide className={styles.swiperSlideServices}>
@@ -138,7 +138,7 @@ export default function ServicesNOA() {
                   </li>
                 </ul>
               </div>
-              <a href="https://web.whatsapp.com/send?phone=554199491851" target="_blank" className={styles.scheduleNow}>Agende agora!</a>
+              <a href="https://wa.me/554199491851" target="_blank" className={styles.scheduleNow}>Agende agora!</a>
             </SwiperSlide>
 
             <SwiperSlide className={styles.swiperSlideServices}>
@@ -156,7 +156,7 @@ export default function ServicesNOA() {
                   </li>
                 </ul>
               </div>
-              <a href="https://web.whatsapp.com/send?phone=554199491851" target="_blank" className={styles.scheduleNow}>Agende agora!</a>
+              <a href="https://wa.me/554199491851" target="_blank" className={styles.scheduleNow}>Agende agora!</a>
             </SwiperSlide>
             
           </Slider>

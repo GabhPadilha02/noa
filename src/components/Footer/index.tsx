@@ -18,13 +18,11 @@ export default function Footer() {
             <p>@noa.beauty_bc</p>
           </a>
 
-          <a href="https://web.whatsapp.com/send?phone=554199491851" target="_blank" className={styles.links}>
+          <a href="https://wa.me/554199491851" target="_blank" className={styles.links}>
             <WhatsappLogo className={styles.iconFooter}/>
             <p>+55 41 9949-1851</p>
           </a>  
-
         </div>
-        
     </footer>
   )
 }

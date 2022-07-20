@@ -20,7 +20,7 @@ export default function Header() {
           <li><a href="#feedbacks">Feedbacks</a></li>
           <li><a href="#encontre-nos">Encontre-nos</a></li>
           <li> 
-            <a href="https://web.whatsapp.com/send?phone=554199491851" target="_blank" className={styles.whatsappButton}>
+            <a href="https://wa.me/554199491851" target="_blank" className={styles.whatsappButton}>
               <span>Contacte-nos</span>
               <WhatsappLogo width={20} height={20}/>
             </a>
