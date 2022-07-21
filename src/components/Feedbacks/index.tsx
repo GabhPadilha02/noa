@@ -1,12 +1,12 @@
 import styles from "../Feedbacks/styles.module.scss"
 import WaterMark from "../../assets/images/watermark.svg"
-import FeedbackBoxFirst from "../../assets/images/FeedbackBox1.svg"
+import FeedbackBoxFirst from "../../assets/images/FeedbackBox1.png"
 import FeedbackBoxSecond from "../../assets/images/FeedbackBox2.svg"
 import FeedbackBoxThird from "../../assets/images/FeedbackBox3.svg"
 import FeedbackBoxFourth from "../../assets/images/FeedbackBox4.svg"
 import FeedbackBoxFifth from "../../assets/images/FeedbackBox5.svg"
 import FeedbackBoxSixth from "../../assets/images/FeedbackBox6.svg"
-import { InstagramLogo, WhatsappLogo } from "phosphor-react"
+import { WhatsappLogo } from "phosphor-react"
 
 export default function Feedbacks() {
   return (
