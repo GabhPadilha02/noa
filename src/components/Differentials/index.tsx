@@ -1,8 +1,8 @@
 import styles from "../Differentials/styles.module.scss"
 
-import WaterMark from "../../assets/images/watermark.png"
-import DifferentialsFirst from "../../assets/images/differentials1.png"
-import DifferentialsSecond from "../../assets/images/differentials2.png"
+import WaterMark from "../../assets/images/watermark.svg"
+import DifferentialsFirst from "../../assets/images/differentials1.svg"
+import DifferentialsSecond from "../../assets/images/differentials2.svg"
 import { InstagramLogo, WhatsappLogo } from "phosphor-react"
 
 export default function Differentials() {

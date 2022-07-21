@@ -1,6 +1,6 @@
 
-import { InstagramLogo, List, WhatsappLogo } from "phosphor-react";
-import Logo from "../../assets/images/logo.png"
+import {List, WhatsappLogo } from "phosphor-react";
+import Logo from "../../assets/images/logo.svg"
 import styles from "../Header/styles.module.scss"
 
 

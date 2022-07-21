@@ -8,12 +8,12 @@ import 'swiper/css/pagination'
 import 'swiper/css/navigation'
 import '../Slider/slider.css'
 
-import ServicesFirst from "../../assets/images/services1.png"
-import ServicesSecond from "../../assets/images/services2.png"
-import ServicesThird from "../../assets/images/services3.png"
-import ServicesFourth from "../../assets/images/services4.png"
-import ServicesFifth from "../../assets/images/services5.png"
-import ServicesSixth from "../../assets/images/services6.png"
+import ServicesFirst from "../../assets/images/services1.svg"
+import ServicesSecond from "../../assets/images/services2.svg"
+import ServicesThird from "../../assets/images/services3.svg"
+import ServicesFourth from "../../assets/images/services4.svg"
+import ServicesFifth from "../../assets/images/services5.svg"
+import ServicesSixth from "../../assets/images/services6.svg"
 
 import { Circle } from "phosphor-react"
 

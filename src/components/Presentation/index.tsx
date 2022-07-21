@@ -3,11 +3,11 @@ import Slider from "../Slider"
 
 import styles from "../Presentation/styles.module.scss"
 
-import BigArrow from "../../assets/images/arrowg.png"
-import HomeFirst from "../../assets/images/home1.png"
-import HomeSecond from "../../assets/images/home2.png"
-import HomeThird from "../../assets/images/home3.png"
-import HomeFourth from "../../assets/images/home4.png"
+import BigArrow from "../../assets/images/arrowg.svg"
+import HomeFirst from "../../assets/images/home1.svg"
+import HomeSecond from "../../assets/images/home2.svg"
+import HomeThird from "../../assets/images/home3.svg"
+import HomeFourth from "../../assets/images/home4.svg"
 import { WhatsappLogo } from "phosphor-react"
 export default function Presentation() {
   const settings: SwiperProps = {

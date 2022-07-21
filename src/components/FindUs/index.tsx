@@ -1,6 +1,6 @@
 import styles from "../FindUs/styles.module.scss"
-import WaterMark from "../../assets/images/watermark.png"
-import Map from "../../assets/images/map.png"
+import WaterMark from "../../assets/images/watermark.svg"
+import Map from "../../assets/images/map.svg"
 
 export default function FindUs() {
   return (

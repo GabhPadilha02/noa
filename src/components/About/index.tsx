@@ -1,10 +1,10 @@
 
 import styles from "../About/styles.module.scss"
-import WaterMark from "../../assets/images/watermark.png"
-import AboutFirst from "../../assets/images/about1.png"
-import AboutSecond from "../../assets/images/about2.png"
-import AboutThird from "../../assets/images/about3.png"
-import { InstagramLogo, WhatsappLogo } from "phosphor-react"
+import WaterMark from "../../assets/images/watermark.svg"
+import AboutFirst from "../../assets/images/about1.svg"
+import AboutSecond from "../../assets/images/about2.svg"
+import AboutThird from "../../assets/images/about3.svg"
+import { WhatsappLogo } from "phosphor-react"
 
 export default function About() {
   return (
