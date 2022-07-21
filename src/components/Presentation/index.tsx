@@ -24,7 +24,7 @@ export default function Presentation() {
         <div className={styles.alignArrow}>
           <div className={styles.homeText}>
             <h1>Sua beleza <br/> floresce <br/> aqui</h1>
-            <p>Clinica especializada em embelezamento feminino</p>
+            <p>Clínica especializada em embelezamento feminino</p>
             <div className={styles.lineForSlider}></div>
           </div>
           <div className={styles.arrow}>

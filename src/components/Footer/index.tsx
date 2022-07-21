@@ -5,7 +5,7 @@ import { InstagramLogo, MapPin } from "phosphor-react"
 export default function Footer() {
   return (
     <footer className={styles.container}>
-      <img src={Logo} alt="" />
+      <img src={Logo} alt="Logo" />
       <a href="https://www.instagram.com/noa.beauty_bc/" target="_blank" className={styles.instaButton}>
             <p>Nos acompanhe nas redes sociais</p>  
             <InstagramLogo className={styles.iconFooter} width={30} height={30}/>
