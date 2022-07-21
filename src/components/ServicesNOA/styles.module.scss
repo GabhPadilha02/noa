@@ -130,3 +130,25 @@
   }
   
 }
+@media (max-width:400px) {
+  .swiperSlideServices{
+    margin: 0 10px;
+    max-width: 350px;
+    align-items: center;
+    justify-content: center;
+    .servicesImage{
+      width: 120px;
+    }
+  }
+  .servicesInfo{
+    h3{
+      font-size: 0.8rem;
+    }
+    .resizeTitle{
+      font-size: 0.7rem;
+    }
+    ul li span{
+      font-size: 0.5rem;
+    }
+  }
+}
