@@ -1,5 +1,5 @@
 import styles from "../ServicesNOA/styles.module.scss"
-import WaterMark from "../../assets/images/watermark.png"
+import WaterMark from "../../assets/images/watermark.svg"
 import Slider from "../Slider"
 import { SwiperProps, SwiperSlide } from "swiper/react"
 
