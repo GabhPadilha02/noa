@@ -39,7 +39,7 @@
   gap: 3rem;
   img{
     width: 350px;
-    height: 494.58px;
+    
   }
   .positioningTheCentralImage{
     position: relative;
@@ -72,19 +72,21 @@
     }
     img{
       width: 250px;
-      height: 494.58px;
+      
     }
   }
 }
 
 @media (max-width: 767px) {
   .aboutGalery{
+    gap: 2rem;
     flex-direction: column;
     .positioningTheCentralImage{
       position: inherit;  
     }
     img{
       width: 250px;
+      
     }
   }
   .socialButtons{
