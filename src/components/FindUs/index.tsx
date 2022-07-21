@@ -10,7 +10,7 @@ export default function FindUs() {
         <h2>Encontre-nos</h2>
       </div>
       <a href="https://goo.gl/maps/FT3ZAiRdxrQQjys56" target="_blank">
-        <img className={styles.map} src={Map} alt="" />
+        <img className={styles.map} src={Map} alt="Mapa" />
       </a>  
     </main>
   )
